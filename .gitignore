@@ -1,0 +1,16 @@
+/.venv
+venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+env/
+.env
+*.pyc
+nvidia-nim-chat/
+artifacts/
+artifacts/unknown/
+artifacts/unknown/apex/
+/.vscode/
+final_test_results.txt
+test_output.txt
+test_perf.txt
