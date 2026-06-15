@@ -85,14 +85,6 @@ pytest --cov=salesforce_ai_engineer tests/
 - ✅ Deployment Agent (auth/executor/monitor/rollback)
 - ✅ API Layer (FastAPI with routes and schemas)
 - ✅ Comprehensive Test Suite (all tests passing locally)
-
-### Operational Tasks / Notes
-
-- 🔒 Sensitive credentials removed from source; use a local `.env` or CI secrets (see `.env.example`).
-- 🔁 If credentials were previously exposed, rotate/revoke them immediately (Salesforce consumer secret, access/refresh tokens, user passwords/security tokens).
-- ⚠️ Real Salesforce org validation: production integration should be run against a dedicated org with rotated credentials and CI secrets configured.
-- 📈 Monitoring & deployment guides: recommended next steps for production readiness (optional).
-
 ## License
 
 MIT License - See LICENSE file for details
