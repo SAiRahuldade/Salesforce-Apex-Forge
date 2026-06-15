@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><ApexClass xmlns="urn:sfdc:tooling:jbi:xsd"> <label>Form Validation</label> <description>Apex class for handling various form validations.</description> <apiVersion>52.0</apiVersion></ApexClass>

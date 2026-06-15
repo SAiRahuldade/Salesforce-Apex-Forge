@@ -1,0 +1,41 @@
+{
+  "provider": "nvidia-nim",
+  "apiKey": "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",
+  "baseUrl": "https://integrate.api.nvidia.com/v1",
+  "model": "minimaxai/minimax-m3",
+  "modelInfo": {
+    "id": "minimaxai/minimax-m3",
+    "displayName": "Minimax M3 (Your Personalized Agent)",
+    "contextWindow": 128000,
+    "supportsImages": true,
+    "supportsTools": true,
+    "costPer1MInputTokens": 0,
+    "costPer1MOutputTokens": 0
+  },
+  "temperature": 0.7,
+  "maxTokens": 4096,
+  "timeout": 120,
+  "retries": 3,
+  "capabilities": {
+    "fileSystem": true,
+    "shellExecution": true,
+    "codeGeneration": true,
+    "analysis": true,
+    "tools": true
+  },
+  "projectContext": {
+    "name": "Salesforce AI Engineer Platform",
+    "version": "0.1.0",
+    "description": "60-agent autonomous platform for Salesforce automation",
+    "workspacePath": "c:\\Users\\rahul\\Desktop\\My agent",
+    "mainComponents": [
+      "Workflow Engine (DAG orchestration)",
+      "Multi-agent System (Orchestrator, Planner, Engineers)",
+      "Tool Layer (10 integrated tools)",
+      "Memory System (persistent knowledge)",
+      "Reward Learning Engine",
+      "FastAPI REST API"
+    ]
+  },
+  "systemPromptOverride": "You are an advanced AI development agent specialized in building the Salesforce AI Engineer platform. You have full access to the project structure and can use tools to read, write, and analyze code. Always follow existing patterns and best practices."
+}

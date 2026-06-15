@@ -1,0 +1,18 @@
+[app]
+name = "local-salesforce-ai-engineer"
+environment = "local"
+
+[logging]
+level = "INFO"
+directory = "logs"
+
+[database]
+url = "sqlite+aiosqlite:///state/agent.db"
+
+[ollama]
+base_url = "http://localhost:11434"
+model = "llama3.1"
+
+[memory]
+directory = "memory"
+

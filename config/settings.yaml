@@ -1,0 +1,24 @@
+app:
+  name: local-salesforce-ai-engineer
+  environment: local
+
+logging:
+  level: INFO
+  directory: logs
+  rich_tracebacks: true
+
+database:
+  url: sqlite+aiosqlite:///state/agent.db
+  echo: false
+
+ollama:
+  base_url: http://localhost:11434
+  model: llama3.1
+
+memory:
+  directory: memory
+
+state:
+  directory: state
+  file_name: runtime_state.json
+

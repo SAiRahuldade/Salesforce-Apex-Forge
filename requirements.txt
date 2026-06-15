@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+requests
+python-dotenv
+httpx2
+pydantic>=2.0.0
+aiosqlite
+PyYAML
+openai
+typer
+rich
+langgraph
+psutil
+python-multipart
+pyrootutils
